@@ -29,10 +29,10 @@ div#wrapper ul li ul {
 div#wrapper ul ul li { color: #7e7e7e; font-size: 16px; }
 div#wrapper ul ul li ul { color: #a9a9a9;  }
 @keyframes fadeIn {
- 	0%   { margin-top:-20px; opacity: 0;}
-    25%  { margin-top:-15px;}
-    50%  { margin-top:-10px;}
-    75%  { margin-top:-7px;}
+ 	0%   { margin-top:-15px; opacity: 0;}
+    25%  { margin-top:-12px;}
+    50%  { margin-top:-8px;}
+    75%  { margin-top:-4px;}
     100% { margin-top:0px; opacity: 1}
 }
 @keyframes fadeOut {
@@ -50,8 +50,8 @@ div#wrapper ul li ul.fade-in{
 }
 
 div#wrapper ul li ul.fade-out{
-    height: auto;
-    max-height: 10px;
+    height: 20px;
+    max-height: 16px;
     transition: max-height 0.4s ease-in;
 }
 
